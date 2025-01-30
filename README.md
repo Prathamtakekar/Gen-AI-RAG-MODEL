@@ -1,13 +1,9 @@
 # Gen AI RAG MODEL
- 
-. Deliverables
-Source Code: Backend for processing PDFs and a Gradio-based interactive interface.
-Colab Notebook: Fully functional notebook demonstrating the QA pipeline.
-Documentation: Explanation of the approach, deployment steps, and usage instructions.
-Examples: Sample queries and outputs.
+A Retrieval-Augmented Generation (RAG) based QA system that extracts financial data from PDF documents, stores embeddings in FAISS, and answers user queries using Google Gemini (PaLM API).
 
-. Project Workflow
-PDF Upload: Extract text from PDFs.
-Text Chunking: Split text into manageable pieces.
-FAISS Index: Store embeddings for efficient retrieval.
-Question Answering: Retrieve context from FAISS and generate answers using Google PaLM (Gemini).
+🚀 Features
+✅ Upload PDFs → Extract financial data from documents
+✅ Create FAISS Index → Store embeddings for fast retrieval
+✅ Ask Questions → Retrieve relevant data and generate answers using Google PaLM (Gemini)
+✅ Interactive UI → Built with Gradio for easy interaction
+✅ Works in Visual Studio & Colab
